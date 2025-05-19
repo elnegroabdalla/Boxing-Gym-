@@ -1,0 +1,18 @@
+
+h1 {
+color: red;
+font-size: 50px;
+text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+body {
+    color: green;
+    font-size: 15px;
+    text-align: center;
+}
+nav{
+    text-align: center;
+}

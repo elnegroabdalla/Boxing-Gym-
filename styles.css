@@ -10,9 +10,9 @@ background-color: black;
 border: 4px solid green;
 }
 .paragraph-1 {
-    width: 200px;
+    width: 300px;
     border: 1px solid red;
-
+    box-sizing: border-box;
     padding: 20px 40px;
   
     
@@ -28,7 +28,7 @@ h1{
 
 .paragraph2 {
     color: purple;
-    width: 200px;
+    width: 300px;
     border: 1px solid red;
     padding: 20px 40px;
     
@@ -36,7 +36,7 @@ h1{
 
 }
 p.aside-1 {
-padding: 20px;
+padding: 20px 40px;
 }
 .aside-1 {
     color: orange;
@@ -55,6 +55,7 @@ h2 {
 body {
     color: green;
     font-size: 15px;
+    background-color: black;
     
 }
 nav{

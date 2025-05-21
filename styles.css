@@ -26,6 +26,19 @@ h1{
 }
 }
 
+button  {
+    transition: 300ms;
+    
+    
+}
+
+button:hover {
+    background-color: red;
+    opacity: 40%;
+    animation: pointdown 1000ms infinite;
+  
+}
+
 .paragraph2 {
     color: purple;
     width: 300px;
@@ -60,4 +73,12 @@ body {
 }
 nav{
     
+}
+@keyframes pointdown {
+0%{
+transform: translateY(0);
+}
+100%{
+transform: translateY(16px);
+}
 }

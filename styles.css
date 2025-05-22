@@ -1,5 +1,5 @@
 
-h1 {
+.prime1{
 color: red;
 font-size: 50px;
 font-weight: bold;
@@ -38,6 +38,13 @@ button:hover {
     animation: pointdown 1000ms infinite;
   
 }
+.message-text {
+color: red;
+padding-top: 30px;
+}
+.last1 {
+    padding-left: 20px;
+};
 
 .paragraph2 {
     color: purple;
@@ -62,8 +69,25 @@ padding: 20px 40px;
     position: relative;
 }
 
+.contact-text {
+    padding-bottom: 50px;
+}
+
+.contact-header {
+    color: red;
+    font-size: 40px;
+}
 h2 {
     color: blue;
+}
+
+.email-1 {
+    padding-top: 20px;
+    padding-left: 31px;
+}
+
+.back1 {
+    padding-top: 50px;
 }
 body {
     color: green;

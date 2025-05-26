@@ -4,7 +4,7 @@
     <meta charset="UTF-8">                                                            <!--tells browser what languge the file is-->
     <meta name="description" content="East-West Boxing gym">                          <!--describes the content in the page-->
     <meta name="keywords" content="boxing, gym, fitness, martial arts">               <!--keywords that will bring your website up in a web search-->
-    <meta http-equiv="refresh" content="30">                                          <!--page refreshes after 30 sec-->
+    <!--<meta http-equiv="refresh" content="30">                                          <!--page refreshes after 30 sec-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">            <!--changes page to phone view-->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">  <!--makes everything the same font-->
 <title>East-West | Boxing gym</title>
@@ -15,7 +15,7 @@
 
 
 <!--CSS Stylesheet-->
-<link rel="stylesheet" href="styles.css">                                        <!--links to an external CSS file for styling the page-->
+<link rel="stylesheet" href="./styles.css?v=1">                                        <!--links to an external CSS file for styling the page-->
 </head>
 
 <body>                                                                                <!--contains the content of the page that users see.-->
@@ -32,22 +32,22 @@
         </nav>
     </header>
     <main>
-        <h2>Welcome to The New You</h2>                                               
-        <iframe width="560" height="315"                                            
+        <h2 class="welcome1">Welcome to The New You</h2>                                               
+       <iframe width="560" height="315"                                            
         src="Video/What Happens To Your Body When You Start Boxing.mp4"                    
         title="Boxing information"
         frameborder="0" 
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe>                                                                        <!--how to embed a video-->
-        <p class="paragraph-1">East-West can help you become who you are meant to be. 
+        <p class="paragraph-1"><span>East-West</span> can help you become who you are meant to be. 
             At East West Boxing Gym, we blend the discipline and philosophy of the East with the strength and intensity of the West.
-             More than just a gym, we’re a community of fighters made of amateurs, pros, and everyday warriors. pushing limits and building resilience.
+             More than just a gym, we're a community of fighters made of amateurs, pros, and everyday warriors. pushing limits and building resilience.
              come test yourself.
         </p>
-        <p class="paragraph2 paragraph-1" >East-West can help you become who you are meant to be. 
+        <p class="test-para">Be more than you can be
             At East West Boxing Gym, we blend the discipline and philosophy of the East with the strength and intensity of the West.
-             More than just a gym, we’re a community of fighters made of amateurs, pros, and everyday warriors. pushing limits and building resilience.
+             More than just a gym, we're a community of fighters made of amateurs, pros, and everyday warriors. Adding another line of text to distinguish the text from the paragraph above. pushing limits and building resilience.
              come test yourself.
         </p>
         
@@ -61,18 +61,18 @@
                <button>
                 Enter
             </button>
+
+            <div>
+                <img src="https://as1.ftcdn.net/v2/jpg/12/62/76/40/1000_F_1262764042_a3WGxkRfujQIWNCRtlLJLMaehSpODnSs.webp" alt="Boxer silhouette">
+            </div>
     </main>
-    </body>
     <aside class="aside-1">                                                                       <!--content relating to the main content but isnt as important "Aside from main content"-->
         <h3>Boxing Impact on Health</h3>                                          <!--this is the third biggest text size out of 6 "h1 - h6"-->
-        <li>Weekly Doses of Boxing can help lengthen life expectancy by 12.8 Percent</li>      <!--tag used to create a list of bullet points-->
-        <li>Boxing is a high-intensity aerobic workout that boosts heart health, lowers blood pressure, and improves circulation.</li>
-        <li>A typical boxing session can burn 500–1,000+ calories per hour, helping with weight loss and fat reduction.</li>
-        <li>Regular sparring and conditioning improve both muscular and cardiorespiratory endurance.</li>
-        
+        <li class="aside-class">Weekly Doses of Boxing can help lengthen life expectancy by 12.8 Percent</li>      <!--tag used to create a list of bullet points-->
+        <li class="aside-class">Boxing is a high-intensity aerobic workout that boosts heart health, lowers blood pressure, and improves circulation.</li>
+        <li class="aside-class">A typical boxing session can burn 500–1,000+ calories per hour, helping with weight loss and fat reduction.</li>
+        <li class="aside-class">Regular sparring and conditioning improve both muscular and cardiorespiratory endurance.</li>
     </aside>
-
-
 
     <footer>
         <p>&copy; 2024 East-West. All rights reserved.</p>
@@ -80,7 +80,8 @@
             <a href="#Privacy">Privacy Policy</a>                                <!--used to create a "Privacy" link at bottom of page-->
             <a href="terms">Contract Terms</a>                                   <!--used to create a "terms" link at bottom of page-->
         </nav>
-        
-        
     </footer>
+
+    
+</body>
 </html>
